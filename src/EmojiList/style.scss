@@ -1,0 +1,18 @@
+@import '../base.scss';
+
+.emojiPicker {
+    .emojiList {
+        width: 100%;
+        height: $height_picker;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        -ms-overflow-style: none;
+
+        &:not(.filter) {
+            .emojiCategory {
+                min-height: 100%;
+            }
+        }
+    }
+}

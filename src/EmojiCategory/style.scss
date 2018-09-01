@@ -1,0 +1,13 @@
+@import '../base.scss';
+
+.emojiPicker {
+
+    .emojiCategory {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hidden {
+        display: none;
+    }
+}
