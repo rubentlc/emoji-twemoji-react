@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/emoji-twemoji-react.svg)](https://www.npmjs.com/package/emoji-twemoji-react) [![Build Status](https://travis-ci.org/rubentlc/emoji-twemoji-react?branch=master)](https://travis-ci.org/rubentlc/emoji-twemoji-react)
 
-[Live demo FAZER](http://requirebin.com/?gist=0ad25fccefcdde664d8a0becad6955f9)
+[Live demo](https://codesandbox.io/s/0qzp6584lw)
 
 ![img](https://raw.githubusercontent.com/rubentlc/emoji-twemoji-react/master/screenshots/1.png)
 
