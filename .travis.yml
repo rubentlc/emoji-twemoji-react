@@ -9,7 +9,7 @@ deploy:
   provider: npm
   email: rubentlc1988@gmail.com
   skip_cleanup: true
-  api_key: \$NPM_TOKEN
+  api_key: \$NPM_TOKEN\\
   on:
     repo: rubentlc/emoji-twemoji-react
     branch: master
