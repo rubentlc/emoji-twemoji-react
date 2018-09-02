@@ -1,4 +1,4 @@
-# Emoji Picker React V0.0.2
+# Emoji Picker React
 
 [![npm version](https://badge.fury.io/js/emoji-twemoji-react.svg)](https://www.npmjs.com/package/emoji-twemoji-react) [![Build Status](https://travis-ci.org/rubentlc/emoji-twemoji-react?branch=master)](https://travis-ci.org/rubentlc/emoji-twemoji-react)
 
