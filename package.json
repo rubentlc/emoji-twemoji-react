@@ -1,5 +1,5 @@
 {
-  "name": "emoji-twemoji-reac",
+  "name": "emoji-twemoji-react",
   "version": "0.0.2",
   "description": "React twemoji emoji-picker component",
   "main": "./dist/index.js",
