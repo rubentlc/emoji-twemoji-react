@@ -1,16 +1,8 @@
 language: node_js
-node_js:
-- '6'
-- '8'
-- node
+node_js: 
+- "stable"
 script:
 - npm run build
-deploy:
-  provider: npm
-  email: rubentlc1988@gmail.com
-  skip_cleanup: true
-  api_key: $NPMTOKEN
-  on:
-    repo: rubentlc/emoji-twemoji-react
-    branch: master
-    node: '8'
+cache:
+  directories:
+    - "node_modules"
