@@ -1,15 +1,14 @@
 # Emoji Picker React
 
-[![npm version](https://badge.fury.io/js/emoji-twemoji-react.svg)](https://www.npmjs.com/package/emoji-twemoji-react) [![Build Status](https://travis-ci.org/rubentlc/emoji-twemoji-react?branch=master)](https://travis-ci.org/rubentlc/emoji-twemoji-react)
+[![npm version](https://badge.fury.io/js/emoji-twemoji-react.svg)](https://www.npmjs.com/package/emoji-twemoji-react) [![Build Status](https://travis-ci.org/rubentlc/emoji-twemoji-react.svg?branch=master)](https://travis-ci.org/rubentlc/emoji-twemoji-react)
 
-[Live demo](https://codesandbox.io/s/0qzp6584lw)
+[![Edit 0qzp6584lw](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/0qzp6584lw)
 
 ![img](https://raw.githubusercontent.com/rubentlc/emoji-twemoji-react/master/screenshots/1.png)
 
 ```
 npm i emoji-twemoji-react --save
 ```
-
 
 
 ## Usage:
