@@ -20,7 +20,7 @@ class MyComponent extends Component {
 
     render() {
         return (
-            <EmojiPicker onEmojiClick={myCallback}/>
+            <EmojiPicker onEmojiClick={(emojiUrl) => console.log(emojiUrl)}/>
         );
     }
 }
@@ -61,4 +61,4 @@ All emoji images in this project are the property of the [twemoji](https://twemo
 
 Other shout-outs:
 * Project based on [emoji-picker-react](https://www.npmjs.com/package/emoji-picker-react).
-* To complement complement this project use [react-emoji-render](https://www.npmjs.com/package/react-emoji-render)
+* To complement this project use [react-emoji-render](https://www.npmjs.com/package/react-emoji-render)
