@@ -1,0 +1,9 @@
+body{
+    /* position: relative; */
+    width: 350px;
+    height: 600px;
+    left: 0%;
+    top: 0%;
+    transform: translateX(-0%);
+    border: 1px solid lightgray;
+}

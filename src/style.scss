@@ -1,4 +1,10 @@
-@import '../base.scss';
+@import './base.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
 
 .emojiPicker {
     background-color: $bg_picker;

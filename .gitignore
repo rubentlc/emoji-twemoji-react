@@ -1,5 +1,2 @@
-node_modules/
-*.log
-.vscode
-storybook-static
-*.swp
+node_modules
+dist

@@ -1,26 +1,26 @@
 const path = require('path');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const InterpolateHtmlPlugin = require('react-dev-utils/InterpolateHtmlPlugin');
-
+const htmlWebpackPlugin = new HtmlWebpackPlugin({
+    template: path.join(__dirname, "examples/src/index.html"),
+    filename: "./index.html"
+});
 module.exports = {
-    devtool: 'cheap-module-eval-source-map',
-    entry: './src/index.js',
+    entry: path.join(__dirname, "examples/src/index.js"),
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js',
-        chunkFilename: '[id].js',
-        publicPath: ''
-    },
-    resolve: {
-        extensions: ['.js', '.jsx']
+        path: path.join(__dirname, "examples/dist"),
+        filename: "bundle.js"
     },
     module: {
         rules: [
             {
-                test: /\.js$/,
-                loader: 'babel-loader',
+                test: /\.(js|jsx)$/,
+                use: "babel-loader",
                 exclude: /node_modules/
+            },
+            {
+                test: /\.css$/,
+                use: ["style-loader", "css-loader"]
             },
             {
                 test: /\.scss$/,
@@ -41,32 +41,16 @@ module.exports = {
                     ]
                 })
             },
-            {
-                test: /\.css$/,
-                use: ExtractTextPlugin.extract({
-                    fallback: 'style-loader',
-                    use: [{
-                        loader: 'css-loader'
-                    }]
-                })
-            },
-                
-            {
-                test: /\.(png|jpe?g|gif)$/,
-                loader: 'url-loader?limit=8000&name=images/[name].[ext]'
-            }
         ]
     },
     plugins: [
-
         new ExtractTextPlugin({ filename: 'style.css', disable: false }),
-
-        new InterpolateHtmlPlugin({ NODE_ENV: 'development', PUBLIC_URL: '' }),
-
-        new HtmlWebpackPlugin({
-            template: __dirname + '/public/index.html',
-            filename: 'index.html',
-            inject: 'body'
-        })
-    ]
+        htmlWebpackPlugin
+    ],
+    resolve: {
+        extensions: [".js", ".jsx"]
+    },
+    devServer: {
+        port: 3001
+    }
 };

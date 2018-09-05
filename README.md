@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/emoji-twemoji-react.svg)](https://www.npmjs.com/package/emoji-twemoji-react) [![Build Status](https://travis-ci.org/rubentlc/emoji-twemoji-react.svg?branch=master)](https://travis-ci.org/rubentlc/emoji-twemoji-react)
 
-[![Edit 0qzp6584lw](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/0qzp6584lw)
+[LIVE DEMO](https://rubentlc.github.io/emoji-twemoji-react/)
 
 ![img](https://raw.githubusercontent.com/rubentlc/emoji-twemoji-react/master/screenshots/1.png)
 
@@ -24,6 +24,8 @@ class MyComponent extends Component {
         );
     }
 }
+
+export default MyComponent;
 
 ```
 
